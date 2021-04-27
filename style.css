@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    height:100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+.btRandom {
+    background: rgb(101, 53, 156);
+    padding: 0.5rem;
+    margin-top: 2rem;
+    justify-self: center;
+    align-self: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    font-size:1.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 10px 1px rgb(195, 162, 207);
+    transition: all linear 0.2s;
+}
+
+.btRandom:hover {
+    box-shadow: 5px 5px 20px 10px rgb(195, 162, 207);
+    cursor: pointer;
+}
