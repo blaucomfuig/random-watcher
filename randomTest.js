@@ -13,7 +13,7 @@ function randomize(){
     let int_8 = []
     let int_9 = []
 
-    for(i = 0; i < 10000; i++){
+    for(i = 0; i < 1000; i++){
         let random = Math.floor(Math.random() * 100)
     /*     console.log(random); */
      
@@ -54,6 +54,9 @@ function randomize(){
        /*  console.log(frequency); */
         
     }
+
+    // para improtar librería 
+
     let frequencyPlot = {
         type: 'bar',
         x: ["0-9", "10-19", "20-29", "30-39", "40-49", "50-59", "60-69", "70-79", "80-89", "90-100"],
@@ -61,7 +64,7 @@ function randomize(){
         marker: {
             color: '#C8A2C8',
             line: {
-                width: 2.5
+                width: 1.5
             }
         }
       };
