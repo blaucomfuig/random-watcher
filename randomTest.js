@@ -13,7 +13,7 @@ function randomize(){
     let int_8 = []
     let int_9 = []
 
-    for(i = 0; i < 1000; i++){
+    for(i = 0; i < 10000; i++){
         let random = Math.floor(Math.random() * 100)
     /*     console.log(random); */
      
